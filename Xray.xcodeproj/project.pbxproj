@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F6470481CC4CF3400F24BA8 /* Xtrace.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F6470471CC4CF3400F24BA8 /* Xtrace.mm */; };
 		BB0594281BEF986B00AC6575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0594271BEF986B00AC6575 /* LaunchScreen.storyboard */; };
-		BB0D854119D44EFD00E2C2C3 /* Xtrace.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB0D854019D44EFD00E2C2C3 /* Xtrace.mm */; };
 		BB4D8E6A18C12C6700A51378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4D8E6918C12C6700A51378 /* Foundation.framework */; };
 		BB4D8E6C18C12C6700A51378 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4D8E6B18C12C6700A51378 /* CoreGraphics.framework */; };
 		BB4D8E6E18C12C6700A51378 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4D8E6D18C12C6700A51378 /* UIKit.framework */; };
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F6470461CC4CF3400F24BA8 /* Xtrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xtrace.h; sourceTree = "<group>"; };
+		4F6470471CC4CF3400F24BA8 /* Xtrace.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Xtrace.mm; sourceTree = "<group>"; };
 		BB0594271BEF986B00AC6575 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BB0D853F19D44EFD00E2C2C3 /* Xtrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xtrace.h; sourceTree = SOURCE_ROOT; };
-		BB0D854019D44EFD00E2C2C3 /* Xtrace.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Xtrace.mm; sourceTree = SOURCE_ROOT; };
 		BB4D8E6618C12C6700A51378 /* Xray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xray.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4D8E6918C12C6700A51378 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BB4D8E6B18C12C6700A51378 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F6470451CC4CEF100F24BA8 /* Xtrace */ = {
+			isa = PBXGroup;
+			children = (
+				4F6470461CC4CF3400F24BA8 /* Xtrace.h */,
+				4F6470471CC4CF3400F24BA8 /* Xtrace.mm */,
+			);
+			path = Xtrace;
+			sourceTree = "<group>";
+		};
 		BB4D8E5D18C12C6600A51378 = {
 			isa = PBXGroup;
 			children = (
@@ -122,8 +131,7 @@
 		BB4D8E6F18C12C6700A51378 /* Xray */ = {
 			isa = PBXGroup;
 			children = (
-				BB0D853F19D44EFD00E2C2C3 /* Xtrace.h */,
-				BB0D854019D44EFD00E2C2C3 /* Xtrace.mm */,
+				4F6470451CC4CEF100F24BA8 /* Xtrace */,
 				BB4D8E7818C12C6700A51378 /* XRAppDelegate.h */,
 				BB4D8E7918C12C6700A51378 /* XRAppDelegate.m */,
 				BB4D8E7B18C12C6700A51378 /* Main.storyboard */,
@@ -268,7 +276,7 @@
 			files = (
 				BB4D8E7A18C12C6700A51378 /* XRAppDelegate.m in Sources */,
 				BB4D8E8018C12C6700A51378 /* XRMasterViewController.m in Sources */,
-				BB0D854119D44EFD00E2C2C3 /* Xtrace.mm in Sources */,
+				4F6470481CC4CF3400F24BA8 /* Xtrace.mm in Sources */,
 				BB4D8E7618C12C6700A51378 /* main.m in Sources */,
 				BB4D8E8318C12C6700A51378 /* XRDetailViewController.m in Sources */,
 			);
