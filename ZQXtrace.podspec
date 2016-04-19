@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
 
-s.name         = "SDCycleScrollView"
-s.version      = "0.1"
+s.name         = "ZQXtrace"
+s.version      = "4.2"
 s.summary      = "Trace Objective-C method calls by class or instance"
 
 s.homepage     = "https://github.com/zhaozzq/Xtrace"
@@ -15,7 +15,7 @@ s.platform     = :ios
 s.platform     = :ios, "7.0"
 
 
-s.source       = { :git => "https://github.com/zhaozzq/Xtrace.git", :tag => "0.1"}
+s.source       = { :git => "https://github.com/zhaozzq/Xtrace.git", :tag => "4.2"}
 
 
 s.source_files  = "Xray/Xtrace/**/*.{h,mm}"
